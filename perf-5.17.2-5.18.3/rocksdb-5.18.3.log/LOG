@@ -1,0 +1,718 @@
+2019/10/10-16:34:23.964377 7f0fc60c8a80 RocksDB version: 5.18.3
+2019/10/10-16:34:23.964444 7f0fc60c8a80 Git sha rocksdb_build_git_sha:
+2019/10/10-16:34:23.964447 7f0fc60c8a80 Compile date Sep 16 2019
+2019/10/10-16:34:23.964448 7f0fc60c8a80 DB SUMMARY
+2019/10/10-16:34:23.964459 7f0fc60c8a80 SST files in /home/chagan.ty/rocksdb-benchmark/db-5.18.3-1m-2 dir, Total Num: 0, files: 
+2019/10/10-16:34:23.964461 7f0fc60c8a80 Write Ahead Log file in /home/chagan.ty/rocksdb-benchmark/db-5.18.3-1m-2: 
+2019/10/10-16:34:23.964464 7f0fc60c8a80                         Options.error_if_exists: 0
+2019/10/10-16:34:23.964465 7f0fc60c8a80                       Options.create_if_missing: 1
+2019/10/10-16:34:23.964466 7f0fc60c8a80                         Options.paranoid_checks: 1
+2019/10/10-16:34:23.964467 7f0fc60c8a80                                     Options.env: 0xa62720
+2019/10/10-16:34:23.964468 7f0fc60c8a80                                Options.info_log: 0x7f0fc3c249a0
+2019/10/10-16:34:23.964470 7f0fc60c8a80                Options.max_file_opening_threads: 16
+2019/10/10-16:34:23.964471 7f0fc60c8a80                              Options.statistics: (nil)
+2019/10/10-16:34:23.964472 7f0fc60c8a80                               Options.use_fsync: 0
+2019/10/10-16:34:23.964473 7f0fc60c8a80                       Options.max_log_file_size: 0
+2019/10/10-16:34:23.964474 7f0fc60c8a80                  Options.max_manifest_file_size: 1073741824
+2019/10/10-16:34:23.964475 7f0fc60c8a80                   Options.log_file_time_to_roll: 0
+2019/10/10-16:34:23.964476 7f0fc60c8a80                       Options.keep_log_file_num: 1000
+2019/10/10-16:34:23.964477 7f0fc60c8a80                    Options.recycle_log_file_num: 0
+2019/10/10-16:34:23.964478 7f0fc60c8a80                         Options.allow_fallocate: 1
+2019/10/10-16:34:23.964479 7f0fc60c8a80                        Options.allow_mmap_reads: 0
+2019/10/10-16:34:23.964480 7f0fc60c8a80                       Options.allow_mmap_writes: 0
+2019/10/10-16:34:23.964481 7f0fc60c8a80                        Options.use_direct_reads: 0
+2019/10/10-16:34:23.964482 7f0fc60c8a80                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/10/10-16:34:23.964483 7f0fc60c8a80          Options.create_missing_column_families: 1
+2019/10/10-16:34:23.964484 7f0fc60c8a80                              Options.db_log_dir: 
+2019/10/10-16:34:23.964485 7f0fc60c8a80                                 Options.wal_dir: /home/chagan.ty/rocksdb-benchmark/db-5.18.3-1m-2
+2019/10/10-16:34:23.964487 7f0fc60c8a80                Options.table_cache_numshardbits: 4
+2019/10/10-16:34:23.964488 7f0fc60c8a80                      Options.max_subcompactions: 1
+2019/10/10-16:34:23.964489 7f0fc60c8a80                  Options.max_background_flushes: -1
+2019/10/10-16:34:23.964490 7f0fc60c8a80                         Options.WAL_ttl_seconds: 0
+2019/10/10-16:34:23.964491 7f0fc60c8a80                       Options.WAL_size_limit_MB: 0
+2019/10/10-16:34:23.964492 7f0fc60c8a80             Options.manifest_preallocation_size: 4194304
+2019/10/10-16:34:23.964493 7f0fc60c8a80                     Options.is_fd_close_on_exec: 1
+2019/10/10-16:34:23.964494 7f0fc60c8a80                   Options.advise_random_on_open: 1
+2019/10/10-16:34:23.964495 7f0fc60c8a80                    Options.db_write_buffer_size: 0
+2019/10/10-16:34:23.964496 7f0fc60c8a80                    Options.write_buffer_manager: 0x7f0fc3cae370
+2019/10/10-16:34:23.964497 7f0fc60c8a80         Options.access_hint_on_compaction_start: 1
+2019/10/10-16:34:23.964498 7f0fc60c8a80  Options.new_table_reader_for_compaction_inputs: 1
+2019/10/10-16:34:23.964499 7f0fc60c8a80           Options.random_access_max_buffer_size: 1048576
+2019/10/10-16:34:23.964500 7f0fc60c8a80                      Options.use_adaptive_mutex: 0
+2019/10/10-16:34:23.964501 7f0fc60c8a80                            Options.rate_limiter: (nil)
+2019/10/10-16:34:23.964502 7f0fc60c8a80     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/10/10-16:34:23.964503 7f0fc60c8a80                       Options.wal_recovery_mode: 2
+2019/10/10-16:34:23.964504 7f0fc60c8a80                  Options.enable_thread_tracking: 0
+2019/10/10-16:34:23.964514 7f0fc60c8a80                  Options.enable_pipelined_write: 1
+2019/10/10-16:34:23.964515 7f0fc60c8a80         Options.allow_concurrent_memtable_write: 1
+2019/10/10-16:34:23.964516 7f0fc60c8a80      Options.enable_write_thread_adaptive_yield: 1
+2019/10/10-16:34:23.964517 7f0fc60c8a80             Options.write_thread_max_yield_usec: 100
+2019/10/10-16:34:23.964518 7f0fc60c8a80            Options.write_thread_slow_yield_usec: 3
+2019/10/10-16:34:23.964519 7f0fc60c8a80                               Options.row_cache: None
+2019/10/10-16:34:23.964520 7f0fc60c8a80                              Options.wal_filter: None
+2019/10/10-16:34:23.964521 7f0fc60c8a80             Options.avoid_flush_during_recovery: 0
+2019/10/10-16:34:23.964522 7f0fc60c8a80             Options.allow_ingest_behind: 0
+2019/10/10-16:34:23.964523 7f0fc60c8a80             Options.preserve_deletes: 0
+2019/10/10-16:34:23.964524 7f0fc60c8a80             Options.two_write_queues: 0
+2019/10/10-16:34:23.964525 7f0fc60c8a80             Options.manual_wal_flush: 0
+2019/10/10-16:34:23.964526 7f0fc60c8a80             Options.max_background_jobs: 2
+2019/10/10-16:34:23.964527 7f0fc60c8a80             Options.max_background_compactions: -1
+2019/10/10-16:34:23.964528 7f0fc60c8a80             Options.avoid_flush_during_shutdown: 0
+2019/10/10-16:34:23.964529 7f0fc60c8a80           Options.writable_file_max_buffer_size: 1048576
+2019/10/10-16:34:23.964530 7f0fc60c8a80             Options.delayed_write_rate : 8388608
+2019/10/10-16:34:23.964532 7f0fc60c8a80             Options.max_total_wal_size: 0
+2019/10/10-16:34:23.964533 7f0fc60c8a80             Options.delete_obsolete_files_period_micros: 21600000000
+2019/10/10-16:34:23.964534 7f0fc60c8a80                   Options.stats_dump_period_sec: 600
+2019/10/10-16:34:23.964535 7f0fc60c8a80                          Options.max_open_files: -1
+2019/10/10-16:34:23.964536 7f0fc60c8a80                          Options.bytes_per_sync: 0
+2019/10/10-16:34:23.964537 7f0fc60c8a80                      Options.wal_bytes_per_sync: 0
+2019/10/10-16:34:23.964538 7f0fc60c8a80       Options.compaction_readahead_size: 0
+2019/10/10-16:34:23.964539 7f0fc60c8a80 Compression algorithms supported:
+2019/10/10-16:34:23.964540 7f0fc60c8a80 	kZSTDNotFinalCompression supported: 1
+2019/10/10-16:34:23.964542 7f0fc60c8a80 	kZSTD supported: 1
+2019/10/10-16:34:23.964543 7f0fc60c8a80 	kXpressCompression supported: 0
+2019/10/10-16:34:23.964544 7f0fc60c8a80 	kLZ4HCCompression supported: 1
+2019/10/10-16:34:23.964546 7f0fc60c8a80 	kLZ4Compression supported: 1
+2019/10/10-16:34:23.964547 7f0fc60c8a80 	kBZip2Compression supported: 1
+2019/10/10-16:34:23.964548 7f0fc60c8a80 	kZlibCompression supported: 1
+2019/10/10-16:34:23.964549 7f0fc60c8a80 	kSnappyCompression supported: 1
+2019/10/10-16:34:23.964551 7f0fc60c8a80 Fast CRC32 supported: Supported on x86
+2019/10/10-16:34:23.964577 7f0fc60c8a80 [/db_impl_open.cc:226] Creating manifest 1 
+2019/10/10-16:34:23.965700 7f0fc60c8a80 [/version_set.cc:3508] Recovering from manifest file: MANIFEST-000001
+2019/10/10-16:34:23.965745 7f0fc60c8a80 [/column_family.cc:474] --------------- Options for column family [default]:
+2019/10/10-16:34:23.965747 7f0fc60c8a80               Options.comparator: leveldb.BytewiseComparator
+2019/10/10-16:34:23.965748 7f0fc60c8a80           Options.merge_operator: None
+2019/10/10-16:34:23.965750 7f0fc60c8a80        Options.compaction_filter: None
+2019/10/10-16:34:23.965751 7f0fc60c8a80        Options.compaction_filter_factory: None
+2019/10/10-16:34:23.965752 7f0fc60c8a80         Options.memtable_factory: SkipListFactory
+2019/10/10-16:34:23.965753 7f0fc60c8a80            Options.table_factory: BlockBasedTable
+2019/10/10-16:34:23.965777 7f0fc60c8a80            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f0fc3c53008)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f0fc3c54070
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/10/10-16:34:23.965792 7f0fc60c8a80        Options.write_buffer_size: 67108864
+2019/10/10-16:34:23.965794 7f0fc60c8a80  Options.max_write_buffer_number: 2
+2019/10/10-16:34:23.965795 7f0fc60c8a80          Options.compression: Snappy
+2019/10/10-16:34:23.965797 7f0fc60c8a80                  Options.bottommost_compression: Disabled
+2019/10/10-16:34:23.965798 7f0fc60c8a80       Options.prefix_extractor: nullptr
+2019/10/10-16:34:23.965799 7f0fc60c8a80   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/10/10-16:34:23.965800 7f0fc60c8a80             Options.num_levels: 7
+2019/10/10-16:34:23.965801 7f0fc60c8a80        Options.min_write_buffer_number_to_merge: 1
+2019/10/10-16:34:23.965802 7f0fc60c8a80     Options.max_write_buffer_number_to_maintain: 0
+2019/10/10-16:34:23.965803 7f0fc60c8a80            Options.bottommost_compression_opts.window_bits: -14
+2019/10/10-16:34:23.965804 7f0fc60c8a80                  Options.bottommost_compression_opts.level: 32767
+2019/10/10-16:34:23.965805 7f0fc60c8a80               Options.bottommost_compression_opts.strategy: 0
+2019/10/10-16:34:23.965806 7f0fc60c8a80         Options.bottommost_compression_opts.max_dict_bytes: 0
+2019/10/10-16:34:23.965807 7f0fc60c8a80         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2019/10/10-16:34:23.965808 7f0fc60c8a80                  Options.bottommost_compression_opts.enabled: false
+2019/10/10-16:34:23.965810 7f0fc60c8a80            Options.compression_opts.window_bits: -14
+2019/10/10-16:34:23.965811 7f0fc60c8a80                  Options.compression_opts.level: 32767
+2019/10/10-16:34:23.965812 7f0fc60c8a80               Options.compression_opts.strategy: 0
+2019/10/10-16:34:23.965813 7f0fc60c8a80         Options.compression_opts.max_dict_bytes: 0
+2019/10/10-16:34:23.965814 7f0fc60c8a80         Options.compression_opts.zstd_max_train_bytes: 0
+2019/10/10-16:34:23.965815 7f0fc60c8a80                  Options.compression_opts.enabled: false
+2019/10/10-16:34:23.965816 7f0fc60c8a80      Options.level0_file_num_compaction_trigger: 4
+2019/10/10-16:34:23.965817 7f0fc60c8a80          Options.level0_slowdown_writes_trigger: 20
+2019/10/10-16:34:23.965818 7f0fc60c8a80              Options.level0_stop_writes_trigger: 36
+2019/10/10-16:34:23.965819 7f0fc60c8a80                   Options.target_file_size_base: 67108864
+2019/10/10-16:34:23.965820 7f0fc60c8a80             Options.target_file_size_multiplier: 1
+2019/10/10-16:34:23.965821 7f0fc60c8a80                Options.max_bytes_for_level_base: 268435456
+2019/10/10-16:34:23.965822 7f0fc60c8a80 Options.level_compaction_dynamic_level_bytes: 0
+2019/10/10-16:34:23.965823 7f0fc60c8a80          Options.max_bytes_for_level_multiplier: 10.000000
+2019/10/10-16:34:23.965825 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/10/10-16:34:23.965826 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/10/10-16:34:23.965827 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/10/10-16:34:23.965828 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/10/10-16:34:23.965829 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/10/10-16:34:23.965830 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/10/10-16:34:23.965831 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/10/10-16:34:23.965832 7f0fc60c8a80       Options.max_sequential_skip_in_iterations: 8
+2019/10/10-16:34:23.965845 7f0fc60c8a80                    Options.max_compaction_bytes: 1677721600
+2019/10/10-16:34:23.965846 7f0fc60c8a80                        Options.arena_block_size: 8388608
+2019/10/10-16:34:23.965847 7f0fc60c8a80   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/10/10-16:34:23.965848 7f0fc60c8a80   Options.hard_pending_compaction_bytes_limit: 137438953472
+2019/10/10-16:34:23.965849 7f0fc60c8a80       Options.rate_limit_delay_max_milliseconds: 1000
+2019/10/10-16:34:23.965851 7f0fc60c8a80                Options.disable_auto_compactions: 0
+2019/10/10-16:34:23.965852 7f0fc60c8a80                        Options.compaction_style: kCompactionStyleLevel
+2019/10/10-16:34:23.965853 7f0fc60c8a80                          Options.compaction_pri: kByCompensatedSize
+2019/10/10-16:34:23.965854 7f0fc60c8a80 Options.compaction_options_universal.size_ratio: 1
+2019/10/10-16:34:23.965855 7f0fc60c8a80 Options.compaction_options_universal.min_merge_width: 2
+2019/10/10-16:34:23.965856 7f0fc60c8a80 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/10/10-16:34:23.965857 7f0fc60c8a80 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/10/10-16:34:23.965858 7f0fc60c8a80 Options.compaction_options_universal.compression_size_percent: -1
+2019/10/10-16:34:23.965860 7f0fc60c8a80 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/10/10-16:34:23.965861 7f0fc60c8a80 Options.compaction_options_fifo.max_table_files_size: 0
+2019/10/10-16:34:23.965862 7f0fc60c8a80 Options.compaction_options_fifo.allow_compaction: 1
+2019/10/10-16:34:23.965863 7f0fc60c8a80 Options.compaction_options_fifo.ttl: 0
+2019/10/10-16:34:23.965864 7f0fc60c8a80                   Options.table_properties_collectors: 
+2019/10/10-16:34:23.965865 7f0fc60c8a80                   Options.inplace_update_support: 0
+2019/10/10-16:34:23.965866 7f0fc60c8a80                 Options.inplace_update_num_locks: 10000
+2019/10/10-16:34:23.965867 7f0fc60c8a80               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/10/10-16:34:23.965869 7f0fc60c8a80   Options.memtable_huge_page_size: 0
+2019/10/10-16:34:23.965870 7f0fc60c8a80                           Options.bloom_locality: 0
+2019/10/10-16:34:23.965871 7f0fc60c8a80                    Options.max_successive_merges: 0
+2019/10/10-16:34:23.965872 7f0fc60c8a80                Options.optimize_filters_for_hits: 0
+2019/10/10-16:34:23.965873 7f0fc60c8a80                Options.paranoid_file_checks: 0
+2019/10/10-16:34:23.965874 7f0fc60c8a80                Options.force_consistency_checks: 0
+2019/10/10-16:34:23.965875 7f0fc60c8a80                Options.report_bg_io_stats: 0
+2019/10/10-16:34:23.965876 7f0fc60c8a80                               Options.ttl: 0
+2019/10/10-16:34:23.966491 7f0fc60c8a80 [/version_set.cc:3724] Recovered from manifest file:/home/chagan.ty/rocksdb-benchmark/db-5.18.3-1m-2/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/10/10-16:34:23.966496 7f0fc60c8a80 [/version_set.cc:3732] Column family [default] (ID 0), log number is 0
+2019/10/10-16:34:23.966585 7f0fc60c8a80 [/version_set.cc:3037] Creating manifest 4
+2019/10/10-16:34:23.967300 7f0fc60c8a80 [/column_family.cc:474] --------------- Options for column family [column_family_name_000001]:
+2019/10/10-16:34:23.967303 7f0fc60c8a80               Options.comparator: leveldb.BytewiseComparator
+2019/10/10-16:34:23.967305 7f0fc60c8a80           Options.merge_operator: None
+2019/10/10-16:34:23.967306 7f0fc60c8a80        Options.compaction_filter: None
+2019/10/10-16:34:23.967307 7f0fc60c8a80        Options.compaction_filter_factory: None
+2019/10/10-16:34:23.967308 7f0fc60c8a80         Options.memtable_factory: SkipListFactory
+2019/10/10-16:34:23.967310 7f0fc60c8a80            Options.table_factory: BlockBasedTable
+2019/10/10-16:34:23.967332 7f0fc60c8a80            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f0fc3c53008)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f0fc3c54070
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/10/10-16:34:23.967340 7f0fc60c8a80        Options.write_buffer_size: 67108864
+2019/10/10-16:34:23.967341 7f0fc60c8a80  Options.max_write_buffer_number: 2
+2019/10/10-16:34:23.967343 7f0fc60c8a80          Options.compression: Snappy
+2019/10/10-16:34:23.967344 7f0fc60c8a80                  Options.bottommost_compression: Disabled
+2019/10/10-16:34:23.967345 7f0fc60c8a80       Options.prefix_extractor: nullptr
+2019/10/10-16:34:23.967346 7f0fc60c8a80   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/10/10-16:34:23.967347 7f0fc60c8a80             Options.num_levels: 7
+2019/10/10-16:34:23.967348 7f0fc60c8a80        Options.min_write_buffer_number_to_merge: 1
+2019/10/10-16:34:23.967349 7f0fc60c8a80     Options.max_write_buffer_number_to_maintain: 0
+2019/10/10-16:34:23.967351 7f0fc60c8a80            Options.bottommost_compression_opts.window_bits: -14
+2019/10/10-16:34:23.967352 7f0fc60c8a80                  Options.bottommost_compression_opts.level: 32767
+2019/10/10-16:34:23.967353 7f0fc60c8a80               Options.bottommost_compression_opts.strategy: 0
+2019/10/10-16:34:23.967354 7f0fc60c8a80         Options.bottommost_compression_opts.max_dict_bytes: 0
+2019/10/10-16:34:23.967355 7f0fc60c8a80         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2019/10/10-16:34:23.967356 7f0fc60c8a80                  Options.bottommost_compression_opts.enabled: false
+2019/10/10-16:34:23.967357 7f0fc60c8a80            Options.compression_opts.window_bits: -14
+2019/10/10-16:34:23.967358 7f0fc60c8a80                  Options.compression_opts.level: 32767
+2019/10/10-16:34:23.967359 7f0fc60c8a80               Options.compression_opts.strategy: 0
+2019/10/10-16:34:23.967360 7f0fc60c8a80         Options.compression_opts.max_dict_bytes: 0
+2019/10/10-16:34:23.967361 7f0fc60c8a80         Options.compression_opts.zstd_max_train_bytes: 0
+2019/10/10-16:34:23.967362 7f0fc60c8a80                  Options.compression_opts.enabled: false
+2019/10/10-16:34:23.967363 7f0fc60c8a80      Options.level0_file_num_compaction_trigger: 4
+2019/10/10-16:34:23.967364 7f0fc60c8a80          Options.level0_slowdown_writes_trigger: 20
+2019/10/10-16:34:23.967366 7f0fc60c8a80              Options.level0_stop_writes_trigger: 36
+2019/10/10-16:34:23.967367 7f0fc60c8a80                   Options.target_file_size_base: 67108864
+2019/10/10-16:34:23.967368 7f0fc60c8a80             Options.target_file_size_multiplier: 1
+2019/10/10-16:34:23.967375 7f0fc60c8a80                Options.max_bytes_for_level_base: 268435456
+2019/10/10-16:34:23.967376 7f0fc60c8a80 Options.level_compaction_dynamic_level_bytes: 0
+2019/10/10-16:34:23.967377 7f0fc60c8a80          Options.max_bytes_for_level_multiplier: 10.000000
+2019/10/10-16:34:23.967379 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/10/10-16:34:23.967380 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/10/10-16:34:23.967382 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/10/10-16:34:23.967383 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/10/10-16:34:23.967384 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/10/10-16:34:23.967385 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/10/10-16:34:23.967386 7f0fc60c8a80 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/10/10-16:34:23.967387 7f0fc60c8a80       Options.max_sequential_skip_in_iterations: 8
+2019/10/10-16:34:23.967388 7f0fc60c8a80                    Options.max_compaction_bytes: 1677721600
+2019/10/10-16:34:23.967389 7f0fc60c8a80                        Options.arena_block_size: 8388608
+2019/10/10-16:34:23.967390 7f0fc60c8a80   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/10/10-16:34:23.967391 7f0fc60c8a80   Options.hard_pending_compaction_bytes_limit: 137438953472
+2019/10/10-16:34:23.967392 7f0fc60c8a80       Options.rate_limit_delay_max_milliseconds: 1000
+2019/10/10-16:34:23.967393 7f0fc60c8a80                Options.disable_auto_compactions: 0
+2019/10/10-16:34:23.967394 7f0fc60c8a80                        Options.compaction_style: kCompactionStyleLevel
+2019/10/10-16:34:23.967396 7f0fc60c8a80                          Options.compaction_pri: kByCompensatedSize
+2019/10/10-16:34:23.967397 7f0fc60c8a80 Options.compaction_options_universal.size_ratio: 1
+2019/10/10-16:34:23.967398 7f0fc60c8a80 Options.compaction_options_universal.min_merge_width: 2
+2019/10/10-16:34:23.967399 7f0fc60c8a80 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/10/10-16:34:23.967400 7f0fc60c8a80 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/10/10-16:34:23.967401 7f0fc60c8a80 Options.compaction_options_universal.compression_size_percent: -1
+2019/10/10-16:34:23.967402 7f0fc60c8a80 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/10/10-16:34:23.967403 7f0fc60c8a80 Options.compaction_options_fifo.max_table_files_size: 0
+2019/10/10-16:34:23.967404 7f0fc60c8a80 Options.compaction_options_fifo.allow_compaction: 1
+2019/10/10-16:34:23.967405 7f0fc60c8a80 Options.compaction_options_fifo.ttl: 0
+2019/10/10-16:34:23.967406 7f0fc60c8a80                   Options.table_properties_collectors: 
+2019/10/10-16:34:23.967407 7f0fc60c8a80                   Options.inplace_update_support: 0
+2019/10/10-16:34:23.967408 7f0fc60c8a80                 Options.inplace_update_num_locks: 10000
+2019/10/10-16:34:23.967410 7f0fc60c8a80               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/10/10-16:34:23.967411 7f0fc60c8a80   Options.memtable_huge_page_size: 0
+2019/10/10-16:34:23.967412 7f0fc60c8a80                           Options.bloom_locality: 0
+2019/10/10-16:34:23.967413 7f0fc60c8a80                    Options.max_successive_merges: 0
+2019/10/10-16:34:23.967414 7f0fc60c8a80                Options.optimize_filters_for_hits: 0
+2019/10/10-16:34:23.967415 7f0fc60c8a80                Options.paranoid_file_checks: 0
+2019/10/10-16:34:23.967416 7f0fc60c8a80                Options.force_consistency_checks: 0
+2019/10/10-16:34:23.967417 7f0fc60c8a80                Options.report_bg_io_stats: 0
+2019/10/10-16:34:23.967418 7f0fc60c8a80                               Options.ttl: 0
+2019/10/10-16:34:23.967433 7f0fc60c8a80 [/db_impl.cc:1606] Created column family [column_family_name_000001] (ID 1)
+2019/10/10-16:34:23.970558 7f0fc60c8a80 [/db_impl_open.cc:1314] DB pointer 0x7f0fc3c5c000
+2019/10/10-16:34:23.970756 7f0fba1f0700 [WARN] [/db_impl.cc:669] ------- DUMPING STATS -------
+2019/10/10-16:34:23.970807 7f0fba1f0700 [WARN] [/db_impl.cc:670] 
+** DB Stats **
+Uptime(secs): 0.0 total, 0.0 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [column_family_name_000001] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [column_family_name_000001] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [column_family_name_000001] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [column_family_name_000001] **
+2019/10/10-16:34:23.973224 7f0fba1f0700 [WARN] [/db_impl.cc:676] ------- Malloc STATS -------
+2019/10/10-16:34:23.973432 7f0fba1f0700 [WARN] [/db_impl.cc:677] ___ Begin jemalloc statistics ___
+Version: 0.0.0-0-g0000000000000000000000000000000000000000
+Assertions disabled
+Run-time option settings:
+  opt.abort: false
+  opt.lg_chunk: 21
+  opt.dss: "secondary"
+  opt.narenas: 384
+  opt.lg_dirty_mult: 3 (arenas.lg_dirty_mult: 3)
+  opt.stats_print: false
+  opt.junk: "false"
+  opt.quarantine: 0
+  opt.redzone: false
+  opt.zero: false
+  opt.tcache: true
+  opt.lg_tcache_max: 15
+CPUs: 96
+Arenas: 384
+Pointer size: 8
+Quantum size: 16
+Page size: 4096
+Min active:dirty page ratio per arena: 8:1
+Maximum thread-cached size class: 32768
+Chunk size: 2097152 (2^21)
+Allocated: 6015920, active: 6553600, metadata: 5552128, resident: 10174464, mapped: 20971520
+Current active ceiling: 16777216
+
+Merged arenas stats:
+assigned threads: 6
+dss allocation precedence: N/A
+min active:dirty page ratio: N/A
+dirty pages: 1600:458 active:dirty, 0 sweeps, 0 madvises, 0 purged
+                            allocated      nmalloc      ndalloc    nrequests
+small:                        3255216        11720         3871        57825
+large:                        2760704           59           46           64
+huge:                               0            0            0            0
+total:                        6015920        11779         3917        57889
+active:                       6553600
+mapped:                      18874368
+metadata: mapped: 479232, allocated: 3811200
+bins:           size ind    allocated      nmalloc      ndalloc    nrequests      curregs      curruns regs pgs  util       nfills     nflushes      newruns       reruns
+                   8   0          960          214           94          154          120            2  512   1 0.117           12           13            2            0
+                  16   1        11200          816          116          664          700            4  256   1 0.683           15           12            5            1
+                  32   2        31040         2658         1688         7585          970           10  128   1 0.757          237           21           17           14
+                  48   3       136704         3009          161        41168         2848           13  256   3 0.855           32           10           14            4
+                  64   4        66368         1382          345         3228         1037           17   64   1 0.953           84           12           21            9
+                  80   5        24080          458          157          986          301            3  256   5 0.391           11           12            4            0
+                  96   6        22080          418          188          498          230            3  128   3 0.598           10           12            5            5
+                 112   7        23296          312          104          183          208            3  256   7 0.270            6           11            3            0
+                 128   8        25600          344          144         1352          200            7   32   1 0.892           90           13           10            6
+                 160   9         1920          110           98          180           12            1  128   5 0.093            4           12            1            0
+                 192  10        13824          200          128           53           72            2   64   3 0.562            6           11            3            0
+                 224  11         2016          124          115           30            9            1  128   7 0.070            5           12            1            0
+                 256  12        10496           54           13           56           41            3   16   1 0.854            6            9            3            0
+                 320  13          960           72           69            8            3            1   64   5 0.046            4           11            1            0
+                 384  14        13440          100           65           17           35            2   32   3 0.546            6           11            3            0
+                 448  15        30912          132           63           21           69            2   64   7 0.539            3            9            2            0
+                 512  16        11776           38           15          109           23            3    8   1 0.958            7            9            4            1
+                 640  17         7680           44           32          276           12            1   32   5 0.375            4            9            1            0
+                 768  18        15360           48           28            8           20            2   16   3 0.625            3            6            3            0
+                 896  19       378112          473           51          415          422           14   32   7 0.941            7           11           14            0
+                1024  20         6144           21           15          288            6            2    4   1 0.750            5            9            7            1
+                1280  21        35840           58           30           33           28            3   16   5 0.583            7           10            3            0
+                1536  22        19968           30           17            4           13            3    8   3 0.541            3            6            6            0
+                1792  23        28672           35           19            4           16            1   16   7 1                4           10            4            0
+                2048  24         2048           14           13            9            1            1    2   1 0.500            4            9            8            0
+                2560  25         2560           10            9            1            1            1    8   5 0.125            1            6            2            0
+                3072  26        55296           38           20           11           18            5    4   3 0.900            4            6           11            0
+                3584  27        39424           20            9            1           11            3    8   7 0.458            2            6            4            0
+                4096  28        45056           25           14           76           11           11    1   1 1                8           10           25            0
+                5120  29      1971200          395           10          386          385           97    4   5 0.992            1            6           99            0
+                     ---
+                7168  31        14336           10            8            2            2            1    4   7 0.500            1            6            3            0
+                8192  32       196608           48           24           18           24           24    1   2 1                9           10           48            0
+               10240  33        10240           10            9            1            1            1    2   5 0.500            1            6            5            0
+                     ---
+large:          size ind    allocated      nmalloc      ndalloc    nrequests      curruns
+               16384  36        32768            2            0            2            2
+               20480  37            0            4            4            8            0
+               24576  38            0            1            1            1            0
+               28672  39       172032           10            4           10            6
+               32768  40        32768            3            2            4            1
+               40960  41            0           19           19           19            0
+                     ---
+               65536  44            0            7            7            7            0
+               81920  45       163840           10            8           10            2
+                     ---
+             1048576  60      1048576            2            1            2            1
+             1310720  61      1310720            1            0            1            1
+                     ---
+huge:           size ind    allocated      nmalloc      ndalloc    nrequests   curhchunks
+                     ---
+
+arenas[0]:
+assigned threads: 1
+dss allocation precedence: secondary
+min active:dirty page ratio: 8:1
+dirty pages: 1182:93 active:dirty, 0 sweeps, 0 madvises, 0 purged
+                            allocated      nmalloc      ndalloc    nrequests
+small:                        2797712         9048         2950        57537
+large:                        1662976           51           41           56
+huge:                               0            0            0            0
+total:                        4460688         9099         2991        57593
+active:                       4841472
+mapped:                       6291456
+metadata: mapped: 159744, allocated: 3811200
+bins:           size ind    allocated      nmalloc      ndalloc    nrequests      curregs      curruns regs pgs  util       nfills     nflushes      newruns       reruns
+                   8   0          160          114           94          154           20            1  512   1 0.039           11            9            1            0
+                  16   1         8000          616          116          664          500            2  256   1 0.976           13            8            3            1
+                  32   2        21440         1958         1288         7535          670            7  128   1 0.747          230           17           10           14
+                  48   3       127104         2709           61        40950         2648           11  256   3 0.940           29            6           11            4
+                  64   4        58176         1190          281         3224          909           15   64   1 0.946           81            8           18            9
+                  80   5         8080          158           57          985          101            1  256   5 0.394            8            8            1            0
+                  96   6        12480          218           88          494          130            2  128   3 0.507            8            8            3            5
+                 112   7          896          112          104          183            8            1  256   7 0.031            4            7            1            0
+                 128   8        21504          312          144         1352          168            6   32   1 0.875           89            9            9            6
+                 160   9         1920          110           98          180           12            1  128   5 0.093            4            8            1            0
+                 192  10         1536           72           64           48            8            1   64   3 0.125            4            7            1            0
+                 224  11         2016          124          115           30            9            1  128   7 0.070            5            8            1            0
+                 256  12         6400           38           13           56           25            2   16   1 0.781            5            5            2            0
+                 320  13          960           72           69            8            3            1   64   5 0.046            4            7            1            0
+                 384  14         1152           36           33           16            3            1   32   3 0.093            4            7            1            0
+                 448  15         2240           68           63           21            5            1   64   7 0.078            2            5            1            0
+                 512  16        11776           38           15          109           23            3    8   1 0.958            7            5            4            1
+                 640  17         7680           44           32          276           12            1   32   5 0.375            4            5            1            0
+                 768  18         3072           16           12            7            4            1   16   3 0.250            1            2            1            0
+                 896  19       349440          441           51          415          390           13   32   7 0.937            6            7           13            0
+                1024  20         6144           21           15          288            6            2    4   1 0.750            5            5            7            1
+                1280  21        34560           42           15           32           27            2   16   5 0.843            6            6            2            0
+                1536  22         4608           10            7            3            3            1    8   3 0.375            1            2            2            0
+                1792  23            0           19           19            4            0            0   16   7 1                3            6            3            0
+                2048  24         2048           14           13            9            1            1    2   1 0.500            4            5            8            0
+                2560  25         2560           10            9            1            1            1    8   5 0.125            1            2            2            0
+                3072  26        24576           18           10           10            8            2    4   3 1                2            2            5            0
+                3584  27         3584           10            9            1            1            1    8   7 0.125            1            2            2            0
+                4096  28        45056           25           14           76           11           11    1   1 1                8            6           25            0
+                5120  29      1971200          395           10          386          385           97    4   5 0.992            1            2           99            0
+                     ---
+                7168  31        14336           10            8            2            2            1    4   7 0.500            1            2            3            0
+                8192  32        32768           18           14           17            4            4    1   2 1                6            6           18            0
+               10240  33        10240           10            9            1            1            1    2   5 0.500            1            2            5            0
+                     ---
+large:          size ind    allocated      nmalloc      ndalloc    nrequests      curruns
+               16384  36        16384            1            0            1            1
+               20480  37            0            4            4            8            0
+                     ---
+               28672  39       172032           10            4           10            6
+               32768  40            0            2            2            3            0
+               40960  41            0           19           19           19            0
+                     ---
+               65536  44            0            4            4            4            0
+               81920  45       163840           10            8           10            2
+                     ---
+             1310720  61      1310720            1            0            1            1
+                     ---
+huge:           size ind    allocated      nmalloc      ndalloc    nrequests   curhchunks
+                     ---
+
+arenas[1]:
+assigned threads: 1
+dss allocation precedence: secondary
+min active:dirty page ratio: 8:1
+dirty pages: 8:0 active:dirty, 0 sweeps, 0 madvises, 0 purged
+                            allocated      nmalloc      ndalloc    nrequests
+small:                          12800          200            0            0
+large:                              0            0            0            0
+huge:                               0            0            0            0
+total:                          12800          200            0            0
+active:                         32768
+mapped:                       2097152
+metadata: mapped: 53248, allocated: 0
+bins:           size ind    allocated      nmalloc      ndalloc    nrequests      curregs      curruns regs pgs  util       nfills     nflushes      newruns       reruns
+                     ---
+                  16   1         1600          100            0            0          100            1  256   1 0.390            1            0            1            0
+                     ---
+                 112   7        11200          100            0            0          100            1  256   7 0.390            1            0            1            0
+                     ---
+large:          size ind    allocated      nmalloc      ndalloc    nrequests      curruns
+                     ---
+huge:           size ind    allocated      nmalloc      ndalloc    nrequests   curhchunks
+                     ---
+
+arenas[2]:
+assigned threads: 1
+dss allocation precedence: secondary
+min active:dirty page ratio: 8:1
+dirty pages: 8:0 active:dirty, 0 sweeps, 0 madvises, 0 purged
+                            allocated      nmalloc      ndalloc    nrequests
+small:                          12800          200            0            0
+large:                              0            0            0            0
+huge:                               0            0            0            0
+total:                          12800          200            0            0
+active:                         32768
+mapped:                       2097152
+metadata: mapped: 53248, allocated: 0
+bins:           size ind    allocated      nmalloc      ndalloc    nrequests      curregs      curruns regs pgs  util       nfills     nflushes      newruns       reruns
+                     ---
+                  16   1         1600          100            0            0          100            1  256   1 0.390            1            0            1            0
+                     ---
+                 112   7        11200          100            0            0          100            1  256   7 0.390            1            0            1            0
+                     ---
+large:          size ind    allocated      nmalloc      ndalloc    nrequests      curruns
+                     ---
+huge:           size ind    allocated      nmalloc      ndalloc    nrequests   curhchunks
+                     ---
+
+arenas[3]:
+assigned threads: 1
+dss allocation precedence: secondary
+min active:dirty page ratio: 8:1
+dirty pages: 6:0 active:dirty, 0 sweeps, 0 madvises, 0 purged
+                            allocated      nmalloc      ndalloc    nrequests
+small:                           4480          416          315            4
+large:                              0            0            0            0
+huge:                               0            0            0            0
+total:                           4480          416          315            4
+active:                         24576
+mapped:                       2097152
+metadata: mapped: 53248, allocated: 0
+bins:           size ind    allocated      nmalloc      ndalloc    nrequests      curregs      curruns regs pgs  util       nfills     nflushes      newruns       reruns
+                     ---
+                  32   2         3200          400          300            3          100            1  128   1 0.781            4            3            4            0
+                     ---
+                1280  21         1280           16           15            1            1            1   16   5 0.062            1            3            1            0
+                     ---
+large:          size ind    allocated      nmalloc      ndalloc    nrequests      curruns
+                     ---
+huge:           size ind    allocated      nmalloc      ndalloc    nrequests   curhchunks
+                     ---
+
+arenas[4]:
+assigned threads: 1
+dss allocation precedence: secondary
+min active:dirty page ratio: 8:1
+dirty pages: 314:365 active:dirty, 0 sweeps, 0 madvises, 0 purged
+                            allocated      nmalloc      ndalloc    nrequests
+small:                         194560         1212          606          284
+large:                        1048576            6            5            6
+huge:                               0            0            0            0
+total:                        1243136         1218          611          290
+active:                       1286144
+mapped:                       4194304
+metadata: mapped: 106496, allocated: 0
+bins:           size ind    allocated      nmalloc      ndalloc    nrequests      curregs      curruns regs pgs  util       nfills     nflushes      newruns       reruns
+                     ---
+                  32   2         3200          200          100           47          100            1  128   1 0.781            2            1            2            0
+                  48   3         4800          200          100          218          100            1  256   3 0.390            2            1            2            0
+                  64   4         4096          128           64            4           64            1   64   1 1                2            1            2            0
+                  80   5         8000          200          100            1          100            1  256   5 0.390            2            1            2            0
+                  96   6         9600          200          100            4          100            1  128   3 0.781            2            1            2            0
+                     ---
+                 192  10        12288          128           64            5           64            1   64   3 1                2            1            2            0
+                     ---
+                 384  14        12288           64           32            1           32            1   32   3 1                2            1            2            0
+                     ---
+                 768  18        12288           32           16            1           16            1   16   3 1                2            1            2            0
+                     ---
+                1536  22        15360           20           10            1           10            2    8   3 0.625            2            1            4            0
+                     ---
+                3072  26        30720           20           10            1           10            3    4   3 0.833            2            1            6            0
+                     ---
+                8192  32        81920           20           10            1           10           10    1   2 1                2            1           20            0
+                     ---
+large:          size ind    allocated      nmalloc      ndalloc    nrequests      curruns
+                     ---
+               24576  38            0            1            1            1            0
+                     ---
+               65536  44            0            3            3            3            0
+                     ---
+             1048576  60      1048576            2            1            2            1
+                     ---
+huge:           size ind    allocated      nmalloc      ndalloc    nrequests   curhchunks
+                     ---
+
+arenas[5]:
+assigned threads: 1
+dss allocation precedence: secondary
+min active:dirty page ratio: 8:1
+dirty pages: 82:0 active:dirty, 0 sweeps, 0 madvises, 0 purged
+                            allocated      nmalloc      ndalloc    nrequests
+small:                         232864          644            0            0
+large:                          49152            2            0            2
+huge:                               0            0            0            0
+total:                         282016          646            0            2
+active:                        335872
+mapped:                       2097152
+metadata: mapped: 53248, allocated: 0
+bins:           size ind    allocated      nmalloc      ndalloc    nrequests      curregs      curruns regs pgs  util       nfills     nflushes      newruns       reruns
+                   8   0          800          100            0            0          100            1  512   1 0.195            1            0            1            0
+                     ---
+                  32   2         3200          100            0            0          100            1  128   1 0.781            1            0            1            0
+                  48   3         4800          100            0            0          100            1  256   3 0.390            1            0            1            0
+                  64   4         4096           64            0            0           64            1   64   1 1                1            0            1            0
+                  80   5         8000          100            0            0          100            1  256   5 0.390            1            0            1            0
+                     ---
+                 128   8         4096           32            0            0           32            1   32   1 1                1            0            1            0
+                     ---
+                 256  12         4096           16            0            0           16            1   16   1 1                1            0            1            0
+                     ---
+                 448  15        28672           64            0            0           64            1   64   7 1                1            0            1            0
+                     ---
+                 896  19        28672           32            0            0           32            1   32   7 1                1            0            1            0
+                     ---
+                1792  23        28672           16            0            0           16            1   16   7 1                1            0            1            0
+                     ---
+                3584  27        35840           10            0            0           10            2    8   7 0.625            1            0            2            0
+                     ---
+                8192  32        81920           10            0            0           10           10    1   2 1                1            0           10            0
+                     ---
+large:          size ind    allocated      nmalloc      ndalloc    nrequests      curruns
+               16384  36        16384            1            0            1            1
+                     ---
+               32768  40        32768            1            0            1            1
+                     ---
+huge:           size ind    allocated      nmalloc      ndalloc    nrequests   curhchunks
+                     ---
+--- End jemalloc statistics ---
+2019/10/10-16:34:35.927365 7f0fc60c8a80 [/db_impl.cc:388] Shutdown: canceling all background work
+2019/10/10-16:34:35.927494 7f0fc60c8a80 [/db_impl_write.cc:1483] [default] New memtable created with log file: #3. Immutable memtables: 0.
+2019/10/10-16:34:35.927614 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:35.927574) [/db_impl_compaction_flush.cc:2023] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/10/10-16:34:35.927620 7f0fc33fe700 [/flush_job.cc:310] [default] [JOB 2] Flushing memtable with next log file: 3
+2019/10/10-16:34:35.927669 7f0fc33fe700 EVENT_LOG_v1 {"time_micros": 1570696475927646, "job": 2, "event": "flush_started", "num_memtables": 1, "num_entries": 10000, "num_deletes": 0, "memory_usage": 364400, "flush_reason": "Shut down"}
+2019/10/10-16:34:35.927676 7f0fc33fe700 [/flush_job.cc:337] [default] [JOB 2] Level-0 flush table #9: started
+2019/10/10-16:34:35.932175 7f0fc33fe700 EVENT_LOG_v1 {"time_micros": 1570696475932160, "cf_name": "default", "job": 2, "event": "table_file_creation", "file_number": 9, "file_size": 173910, "table_properties": {"data_size": 172425, "index_size": 1329, "filter_size": 0, "raw_key_size": 140000, "raw_average_key_size": 14, "raw_value_size": 80000, "raw_average_value_size": 8, "num_data_blocks": 52, "num_entries": 10000, "filter_policy_name": ""}}
+2019/10/10-16:34:35.932195 7f0fc33fe700 [/flush_job.cc:377] [default] [JOB 2] Level-0 flush table #9: 173910 bytes OK
+2019/10/10-16:34:35.932509 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:35.932301) [/memtable_list.cc:380] [default] Level-0 commit table #9 started
+2019/10/10-16:34:35.932512 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:35.932471) [/memtable_list.cc:428] [default] Level-0 commit table #9: memtable #1 done
+2019/10/10-16:34:35.932514 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:35.932482) EVENT_LOG_v1 {"time_micros": 1570696475932476, "job": 2, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/10/10-16:34:35.932517 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:35.932494) [/db_impl_compaction_flush.cc:183] [default] Level summary: files[1 0 0 0 0 0 0] max score 0.25
+2019/10/10-16:34:35.932937 7f0fc60c8a80 [/db_impl_write.cc:1483] [column_family_name_000001] New memtable created with log file: #3. Immutable memtables: 0.
+2019/10/10-16:34:35.932963 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:35.932954) [/db_impl_compaction_flush.cc:2023] Calling FlushMemTableToOutputFile with column family [column_family_name_000001], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/10/10-16:34:35.932966 7f0fc33fe700 [/flush_job.cc:310] [column_family_name_000001] [JOB 3] Flushing memtable with next log file: 3
+2019/10/10-16:34:35.932976 7f0fc33fe700 EVENT_LOG_v1 {"time_micros": 1570696475932971, "job": 3, "event": "flush_started", "num_memtables": 1, "num_entries": 990000, "num_deletes": 0, "memory_usage": 35897288, "flush_reason": "Shut down"}
+2019/10/10-16:34:35.932979 7f0fc33fe700 [/flush_job.cc:337] [column_family_name_000001] [JOB 3] Level-0 flush table #10: started
+2019/10/10-16:34:36.268393 7f0fc33fe700 EVENT_LOG_v1 {"time_micros": 1570696476268380, "cf_name": "column_family_name_000001", "job": 3, "event": "table_file_creation", "file_number": 10, "file_size": 15635519, "table_properties": {"data_size": 15563440, "index_size": 134167, "filter_size": 0, "raw_key_size": 13860000, "raw_average_key_size": 14, "raw_value_size": 7920000, "raw_average_value_size": 8, "num_data_blocks": 5000, "num_entries": 990000, "filter_policy_name": ""}}
+2019/10/10-16:34:36.268421 7f0fc33fe700 [/flush_job.cc:377] [column_family_name_000001] [JOB 3] Level-0 flush table #10: 15635519 bytes OK
+2019/10/10-16:34:36.270151 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:36.269109) [/memtable_list.cc:380] [column_family_name_000001] Level-0 commit table #10 started
+2019/10/10-16:34:36.270154 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:36.270111) [/memtable_list.cc:428] [column_family_name_000001] Level-0 commit table #10: memtable #1 done
+2019/10/10-16:34:36.270156 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:36.270122) EVENT_LOG_v1 {"time_micros": 1570696476270115, "job": 3, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/10/10-16:34:36.270158 7f0fc33fe700 (Original Log Time 2019/10/10-16:34:36.270135) [/db_impl_compaction_flush.cc:183] [column_family_name_000001] Level summary: files[1 0 0 0 0 0 0] max score 0.25
+2019/10/10-16:34:36.274878 7f0fc60c8a80 [/db_impl.cc:562] Shutdown complete
